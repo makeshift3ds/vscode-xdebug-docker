@@ -16,6 +16,3 @@ services:
     container_name: "vxd_php"
     volumes:
       - "./app:/var/www/html"
-    ports:
-      - "9000:9000"
-      - "9001:9001"
